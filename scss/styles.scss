@@ -1,0 +1,202 @@
+@mixin position($pos, $width, $height, $top, $left) {
+    position: $pos;
+    width: $width;
+    height: $height;
+    margin-top: $top;
+    margin-left: $left;
+  }
+  
+  @mixin font($family, $style, $weight, $size, $line_height, $color) {
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line_height;
+    color: $color;
+  }
+  
+  h1 {
+    @include position(absolute, 32px, 13px, 21px, 137px);
+    @include font('Roboto', normal, 700, 11px, 13px, #000000);
+    display: block;
+  }
+  
+  h2 {
+    @include position(absolute, 59px, 13px, 21px, 204px);
+    @include font('Roboto', normal, 700, 11px, 13px, #000000);
+  }
+  
+  h3 {
+    @include position(absolute, 44px, 13px, 21px, 298px);
+    @include font('Roboto', normal, 700, 11px, 13px, #000000);
+  }
+  
+  h4 {
+    @include position(absolute, 50px, 13px, 21px, 377px);
+    @include font('Roboto', normal, 700, 11px, 13px, #000000);
+  }
+  
+  .pic {
+    @include position(absolute, 32px, 32px, 11px, 456px);
+    background: url(image.png);
+  }
+  
+  .trade {
+    @include position(absolute, 120px, 28px, 76px, 137px);
+    @include font('Roboto', normal, 700, 24px, 28px, #000000);
+  }
+  
+  .foto1 {
+    @include position(absolute, 362px, 186px, 131px, 138px);
+    background: url(image.png);
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .foto2 {
+    @include position(absolute, 184px, 23px, 163px, 179px);
+    @include font('Roboto', normal, 700, 20px, 23px, #FFFFFF);
+  }
+  
+  .container {
+    @include position(absolute, 362px, 171px, 317px, 138px);
+    background: #FFFFFF;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .text {
+    @include position(absolute, 238px, 36px, 385px, 175px);
+    @include font('Roboto', normal, 700, 10px, 12px, #8A8787);
+  }
+  
+  .clock {
+    @include position(absolute, 16px, 16px, 432px, 178px);
+    background: url(image.png);
+  }
+  
+  .time {
+    @include position(absolute, 34px, 12px, 435px, 205px);
+    @include font('Roboto', normal, 700, 10px, 12px, #8A8787);
+  }
+  
+  .sea {
+    @include position(absolute, 362px, 186px, 131px, 540px);
+    background: url(image.png);
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .txt {
+    @include position(absolute, 184px, 23px, 168px, 580px);
+    @include font('Roboto', normal, 700, 20px, 23px, #FFFFFF);
+  }
+  
+  .class, .poto {
+    @include position(absolute, 207px, 36px, 384px, 577px);
+    @include font('Roboto', normal, 700, 10px, 12px, #8A8787);
+  }
+  
+  .photo {
+    @include position(absolute, 16px, 16px, 431px, 580px);
+    background: url(image.png);
+  }
+  
+  .day {
+    @include position(absolute, 34px, 12px, 434px, 607px);
+    @include font('Roboto', normal, 700, 10px, 12px, #8A8787);
+  }
+  
+  .ice {
+    @include position(absolute, 362px, 186px, 131px, 942px);
+    background: url(image.png);
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .pi {
+    @include position(absolute, 184px, 23px, 168px, 983px);
+    @include font('Roboto', normal, 700, 20px, 23px, #FFFFFF);
+  }
+  
+  .nice {
+    @include position(absolute, 214px, 36px, 384px, 979px);
+    @include font('Roboto', normal, 700, 10px, 12px, #8A8787);
+  }
+  
+  .cut {
+    @include position(absolute, 16px, 16px, 431px, 982px);
+    background: url(image.png);
+  }
+  
+  .t {
+    @include position(absolute, 34px, 12px, 434px, 1009px);
+    @include font('Roboto', normal, 700, 10px, 12px, #8A8787);
+  }
+  
+  .happend {
+    @include position(absolute, 196px, 28px, 545px, 140px);
+    @include font('Roboto', normal, 800, 24px, 28px, #000000);
+  }
+  
+  .png{  @include position(absolute, 758px, 430px, 603px, 138px);
+    background: url(image.png);
+    border-radius: 5px;
+   
+  }
+  .nature {
+    @include position(absolute, 758px, 430px, 1070px, 138px);
+    background: url(image.png);
+    border-radius: 5px;
+  }
+  
+  .green {
+    @include position(absolute, 362px, 212px, 603px, 941px);
+    background: url(image.png);
+    border-radius: 5px;
+  }
+  
+  .sp {
+    @include position(absolute, 362px, 212px, 913px, 941px);
+    background: url(image.png);
+    border-radius: 5px;
+  }
+  
+  .city {
+    @include position(absolute, 362px, 212px, 1228px, 941px);
+    background: url(image.png);
+    border-radius: 5px;
+  }
+  
+  .black {
+    position: absolute;
+    width: 1440px;
+    height: 201px;
+    background: #243043;
+    top: 1541px;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+    @include font('Roboto', normal, 700, 12px, 14px, #818687);
+    @include position(absolute, auto, 14px, 0px, 0px);
+  }
+  
+  .one { margin-left: 138px; margin-top: 1600px; }
+  .two { margin-left: 138px; margin-top: 1628px; }
+  .three { margin-left: 138px; margin-top: 1656px; }
+  .four { margin-left: 138px; margin-top: 1684px; }
+  .five { margin-left: 267px; margin-top: 1600px; }
+  .six { margin-left: 267px; margin-top: 1628px; }
+  .seven { margin-left: 267px; margin-top: 1656px; }
+  .eight { margin-left: 267px; margin-top: 1684px; }
+  .nine { margin-left: 418px; margin-top: 1600px; }
+  .ten { margin-left: 418px; margin-top: 1628px; }
+  .eleven { margin-left: 418px; margin-top: 1656px; }
+  .twelve { margin-left: 418px; margin-top: 1684px; }
+  
+  .Hey {
+    @include font('Roboto', normal, 400, 12px, 14px, #FFFFFF);
+    @include position(absolute, 249px, 14px, 1600px, 600px);
+  }
+  
+  .geolab {
+    @include position(absolute, 38px, 40px, 1599px, 1265px);
+    background: url(geolab-თეთრი-ლოგო-Png.png);
+  }
+  

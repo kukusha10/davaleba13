@@ -1,0 +1,442 @@
+@charset "UTF-8";
+h1 {
+  position: absolute;
+  width: 32px;
+  height: 13px;
+  margin-top: 21px;
+  margin-left: 137px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  display: block;
+}
+
+h2 {
+  position: absolute;
+  width: 59px;
+  height: 13px;
+  margin-top: 21px;
+  margin-left: 204px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+h3 {
+  position: absolute;
+  width: 44px;
+  height: 13px;
+  margin-top: 21px;
+  margin-left: 298px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+h4 {
+  position: absolute;
+  width: 50px;
+  height: 13px;
+  margin-top: 21px;
+  margin-left: 377px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.pic {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin-top: 11px;
+  margin-left: 456px;
+  background: url(image.png);
+}
+
+.trade {
+  position: absolute;
+  width: 120px;
+  height: 28px;
+  margin-top: 76px;
+  margin-left: 137px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.foto1 {
+  position: absolute;
+  width: 362px;
+  height: 186px;
+  margin-top: 131px;
+  margin-left: 138px;
+  background: url(image.png);
+  border-radius: 5px 5px 0 0;
+}
+
+.foto2 {
+  position: absolute;
+  width: 184px;
+  height: 23px;
+  margin-top: 163px;
+  margin-left: 179px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.container {
+  position: absolute;
+  width: 362px;
+  height: 171px;
+  margin-top: 317px;
+  margin-left: 138px;
+  background: #FFFFFF;
+  border-radius: 0 0 5px 5px;
+}
+
+.text {
+  position: absolute;
+  width: 238px;
+  height: 36px;
+  margin-top: 385px;
+  margin-left: 175px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8A8787;
+}
+
+.clock {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-top: 432px;
+  margin-left: 178px;
+  background: url(image.png);
+}
+
+.time {
+  position: absolute;
+  width: 34px;
+  height: 12px;
+  margin-top: 435px;
+  margin-left: 205px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8A8787;
+}
+
+.sea {
+  position: absolute;
+  width: 362px;
+  height: 186px;
+  margin-top: 131px;
+  margin-left: 540px;
+  background: url(image.png);
+  border-radius: 5px 5px 0 0;
+}
+
+.txt {
+  position: absolute;
+  width: 184px;
+  height: 23px;
+  margin-top: 168px;
+  margin-left: 580px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.class, .poto {
+  position: absolute;
+  width: 207px;
+  height: 36px;
+  margin-top: 384px;
+  margin-left: 577px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8A8787;
+}
+
+.photo {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-top: 431px;
+  margin-left: 580px;
+  background: url(image.png);
+}
+
+.day {
+  position: absolute;
+  width: 34px;
+  height: 12px;
+  margin-top: 434px;
+  margin-left: 607px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8A8787;
+}
+
+.ice {
+  position: absolute;
+  width: 362px;
+  height: 186px;
+  margin-top: 131px;
+  margin-left: 942px;
+  background: url(image.png);
+  border-radius: 5px 5px 0 0;
+}
+
+.pi {
+  position: absolute;
+  width: 184px;
+  height: 23px;
+  margin-top: 168px;
+  margin-left: 983px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.nice {
+  position: absolute;
+  width: 214px;
+  height: 36px;
+  margin-top: 384px;
+  margin-left: 979px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8A8787;
+}
+
+.cut {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-top: 431px;
+  margin-left: 982px;
+  background: url(image.png);
+}
+
+.t {
+  position: absolute;
+  width: 34px;
+  height: 12px;
+  margin-top: 434px;
+  margin-left: 1009px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8A8787;
+}
+
+.happend {
+  position: absolute;
+  width: 196px;
+  height: 28px;
+  margin-top: 545px;
+  margin-left: 140px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.png {
+  position: absolute;
+  width: 758px;
+  height: 430px;
+  margin-top: 603px;
+  margin-left: 138px;
+  background: url(image.png);
+  border-radius: 5px;
+}
+
+.nature {
+  position: absolute;
+  width: 758px;
+  height: 430px;
+  margin-top: 1070px;
+  margin-left: 138px;
+  background: url(image.png);
+  border-radius: 5px;
+}
+
+.green {
+  position: absolute;
+  width: 362px;
+  height: 212px;
+  margin-top: 603px;
+  margin-left: 941px;
+  background: url(image.png);
+  border-radius: 5px;
+}
+
+.sp {
+  position: absolute;
+  width: 362px;
+  height: 212px;
+  margin-top: 913px;
+  margin-left: 941px;
+  background: url(image.png);
+  border-radius: 5px;
+}
+
+.city {
+  position: absolute;
+  width: 362px;
+  height: 212px;
+  margin-top: 1228px;
+  margin-left: 941px;
+  background: url(image.png);
+  border-radius: 5px;
+}
+
+.black {
+  position: absolute;
+  width: 1440px;
+  height: 201px;
+  background: #243043;
+  top: 1541px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #818687;
+  position: absolute;
+  width: auto;
+  height: 14px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.one {
+  margin-left: 138px;
+  margin-top: 1600px;
+}
+
+.two {
+  margin-left: 138px;
+  margin-top: 1628px;
+}
+
+.three {
+  margin-left: 138px;
+  margin-top: 1656px;
+}
+
+.four {
+  margin-left: 138px;
+  margin-top: 1684px;
+}
+
+.five {
+  margin-left: 267px;
+  margin-top: 1600px;
+}
+
+.six {
+  margin-left: 267px;
+  margin-top: 1628px;
+}
+
+.seven {
+  margin-left: 267px;
+  margin-top: 1656px;
+}
+
+.eight {
+  margin-left: 267px;
+  margin-top: 1684px;
+}
+
+.nine {
+  margin-left: 418px;
+  margin-top: 1600px;
+}
+
+.ten {
+  margin-left: 418px;
+  margin-top: 1628px;
+}
+
+.eleven {
+  margin-left: 418px;
+  margin-top: 1656px;
+}
+
+.twelve {
+  margin-left: 418px;
+  margin-top: 1684px;
+}
+
+.Hey {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  position: absolute;
+  width: 249px;
+  height: 14px;
+  margin-top: 1600px;
+  margin-left: 600px;
+}
+
+.geolab {
+  position: absolute;
+  width: 38px;
+  height: 40px;
+  margin-top: 1599px;
+  margin-left: 1265px;
+  background: url(geolab-თეთრი-ლოგო-Png.png);
+}/*# sourceMappingURL=styles.css.map */
